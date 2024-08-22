@@ -1,0 +1,96 @@
+@charset "utc-8";
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+@font-face {
+    font-family: Sriracha;
+    src: url(fontes/Sriracha-Regular.ttf);
+}
+@font-face {
+    font-family: Passion One;
+    src: url(fontes/PassionOne-Bold.ttf);
+}
+:root{
+    --fonte1: Verdana, Geneva, Tahoma, sans-serif;
+    --fonte2: 'Passion One', cursive;
+    --fonte3: 'Sriracha', cursive;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    height: 250px;
+    width: 100vw;
+}
+header > h1{
+    font-size: 9vw;
+    font-family: Passion one;
+    font-variant: small-caps;
+}
+header > p{
+    font-family: var(--fonte1);
+    font-size: 1rem;
+}
+header > p > a{
+    color: white;
+    text-decoration: none;
+    font-weight:bold ;
+}
+header > p > a:hover{
+    text-decoration: underline;
+}
+main > article > section > p{
+    font-family: var(--fonte3);
+    font-size: 2.5vw;
+}
+main > article > .padrao{
+    padding: 20px;
+}
+main > article > .joaninha{
+    background: rgb(0, 0, 0) url(imagens/background001.jpg) no-repeat fixed;
+    background-position: right center;
+    background-size: cover;
+    box-shadow: 1px 1px 20px inset;
+    padding: 20px;
+}
+main > article > .joaninha > p{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.207);
+    width: 35vw;
+}
+main > article > .livro{
+    background: rgb(0, 0, 0) url(imagens/background002.jpg) no-repeat fixed;
+    background-position: right center;
+    background-size: cover;
+    box-shadow: 1px 1px 20px inset;
+    padding: 20px;
+}
+main > article > .livro > p{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.207);
+    width: 35vw;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    background-color: black;
+}
+footer > p{
+    font-family: var(--fonte1);
+    color: white;
+}
+footer > p > a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+footer > p > a:hover{
+    text-decoration: underline;
+}
