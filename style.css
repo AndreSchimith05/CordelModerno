@@ -29,7 +29,7 @@ header{
     width: 100vw;
 }
 header > h1{
-    font-size: 9vw;
+    font-size: 10vw;
     font-family: Passion one;
     font-variant: small-caps;
 }
@@ -47,7 +47,7 @@ header > p > a:hover{
 }
 main > article > section > p{
     font-family: var(--fonte3);
-    font-size: 2.5vw;
+    font-size: 3.5vw;
 }
 main > article > .padrao{
     padding: 20px;
@@ -62,7 +62,7 @@ main > article > .joaninha{
 main > article > .joaninha > p{
     color: white;
     background-color: rgba(0, 0, 0, 0.207);
-    width: 35vw;
+    width: 45vw;
 }
 main > article > .livro{
     background: rgb(0, 0, 0) url(imagens/background002.jpg) no-repeat fixed;
@@ -74,7 +74,7 @@ main > article > .livro{
 main > article > .livro > p{
     color: white;
     background-color: rgba(0, 0, 0, 0.207);
-    width: 35vw;
+    width: 45vw;
 }
 footer{
     display: flex;
